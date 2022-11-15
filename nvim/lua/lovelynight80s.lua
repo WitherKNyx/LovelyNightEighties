@@ -543,10 +543,10 @@ LN8.load_plugin_syntax = function(palette)
     },
     TelescopeNormal = {
       fg = palette.base0,
-      bg = palette.base0,
+      bg = palette.base5,
     },
     TelescopeSelection = {
-      fg = palette.base0,
+      fg = palette.base3,
       style = 'bold',
     },
     TelescopeSelectionCaret = {
