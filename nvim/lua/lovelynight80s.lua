@@ -539,14 +539,14 @@ LN8.load_plugin_syntax = function(palette)
 
     -- Telescope
     TelescopeBorder = {
-      fg = palette.base3,
+      fg = palette.base2,
     },
     TelescopeNormal = {
-      fg = palette.base0,
+      fg = palette.base1,
       bg = palette.base5,
     },
     TelescopeSelection = {
-      fg = palette.base3,
+      fg = palette.base0,
       style = 'bold',
     },
     TelescopeSelectionCaret = {
