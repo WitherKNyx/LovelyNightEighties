@@ -595,6 +595,16 @@ LN8.load_plugin_syntax = function(palette)
     CmpItemKindEnumMember = { fg = palette.green },
     CmpItemKindOperator = { fg = palette.green },
 
+    -- neocline/coc.nvim
+    CocFloating = {
+      fg = palette.base0,
+      bg = palette.base4,
+    },
+    CocMenuSel = {
+      fg = palette.base0,
+      bg = palette.base3,
+    },
+
     -- ray-x/lsp_signature.nvim
     LspSignatureActiveParameter = { fg = palette.orange },
 	}
