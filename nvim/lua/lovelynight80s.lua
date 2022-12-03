@@ -56,7 +56,7 @@ LN8.load_syntax = function(palette)
       bg = palette.base3,
     },
     PmenuSel = {
-      fg = palette.base4,
+      fg = palette.base3,
       bg = palette.orange,
     },
     PmenuSelBold = {
