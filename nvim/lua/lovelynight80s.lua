@@ -49,7 +49,7 @@ LN8.load_syntax = function(palette)
       bg = palette.base5,
     },
     NormalFloat = {
-      bg = palette.base1,
+      bg = palette.base2,
     },
     Pmenu = {
       fg = palette.base0,
@@ -560,8 +560,8 @@ LN8.load_plugin_syntax = function(palette)
     },
 
     -- hrsh7th/nvim-cmp
-    CmpDocumentation = { fg = palette.base0, bg = palette.base1 },
-    CmpDocumentationBorder = { fg = palette.base0, bg = palette.base1 },
+    CmpDocumentation = { fg = palette.base0, bg = palette.base2 },
+    CmpDocumentationBorder = { fg = palette.base0, bg = palette.base2 },
 
     CmpItemAbbr = { fg = palette.base0 },
     CmpItemAbbrMatch = { fg = palette.cyan },
